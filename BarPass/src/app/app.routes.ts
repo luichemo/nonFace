@@ -1,5 +1,7 @@
 import { Routes } from '@angular/router';
 import { LandingPageComponent } from './public/landing-page/landing-page.component';
+import path from 'path';
+import { LoginFormComponent } from './public/login-form/login-form.component';
 
 export const routes: Routes = [
     {
@@ -7,6 +9,10 @@ export const routes: Routes = [
         loadChildren: () => import('./public/public.module').then(m => m.PublicModule),
         
     
+      },
+      {
+      path: 'login',
+      component: LoginFormComponent
       },
       {
         path: 'private',

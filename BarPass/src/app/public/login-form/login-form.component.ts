@@ -3,12 +3,12 @@ import { Component } from '@angular/core';
 import { RouterModule, RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-landing-page',
+  selector: 'app-login-form',
   standalone: true,
   imports: [CommonModule, RouterModule],
-  templateUrl: './landing-page.component.html',
-  styleUrl: './landing-page.component.scss'
+  templateUrl: './login-form.component.html',
+  styleUrl: './login-form.component.scss'
 })
-export class LandingPageComponent {
+export class LoginFormComponent {
 
 }
